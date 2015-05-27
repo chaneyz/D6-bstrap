@@ -1,21 +1,39 @@
 {
-  "name": "grid-systems",
-  "version": "0.0.0",
-  "authors": [
-    "Zach Chaney <zachary.chaney@gmail.com>"
+  "name": "bootstrap",
+  "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
+  "version": "3.3.4",
+  "keywords": [
+    "css",
+    "js",
+    "less",
+    "mobile-first",
+    "responsive",
+    "front-end",
+    "framework",
+    "web"
   ],
-  "moduleType": [
-    "amd"
+  "homepage": "http://getbootstrap.com",
+  "main": [
+    "less/bootstrap.less",
+    "dist/css/bootstrap.css",
+    "dist/js/bootstrap.js",
+    "dist/fonts/glyphicons-halflings-regular.eot",
+    "dist/fonts/glyphicons-halflings-regular.svg",
+    "dist/fonts/glyphicons-halflings-regular.ttf",
+    "dist/fonts/glyphicons-halflings-regular.woff",
+    "dist/fonts/glyphicons-halflings-regular.woff2"
   ],
-  "license": "MIT",
   "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
+    "/.*",
+    "_config.yml",
+    "CNAME",
+    "composer.json",
+    "CONTRIBUTING.md",
+    "docs",
+    "js/tests",
+    "test-infra"
   ],
   "dependencies": {
-    "bootstrap": "~3.3.4"
+    "jquery": ">= 1.9.1"
   }
 }
